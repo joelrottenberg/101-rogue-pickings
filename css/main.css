@@ -395,7 +395,7 @@ footer {
 }
 
 .social-icons {
-	margin-left: 375px;
+text-align: centre;
 	margin-top: 50px;
 }
 
@@ -403,7 +403,7 @@ footer li {
 	list-style: none;
 	display: inline-block;
 	margin: 0;
-    padding: 10px;
+    padding: 0;
 }
 
 .nav-footer {
