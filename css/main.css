@@ -396,12 +396,12 @@ footer {
 
 .social-icons {
         margin-top: 50px;
-        display: inline-block;
         text-align: centre;
 }
 
 footer li {
 	list-style: none;
+        display: inline-block;
 	margin: 0;
         padding: 0;
 }
