@@ -395,15 +395,15 @@ footer {
 }
 
 .social-icons {
-text-align: centre;
-	margin-top: 50px;
+        margin-top: 50px;
+        display: block;
+        text-align: centre;
 }
 
 footer li {
 	list-style: none;
-	display: inline-block;
 	margin: 0;
-    padding: 0;
+        padding: 0;
 }
 
 .nav-footer {
