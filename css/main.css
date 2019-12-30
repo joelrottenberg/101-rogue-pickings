@@ -412,6 +412,7 @@ footer li {
 	color: #9b9b9f;
 	margin-top: 35px;
 	text-transform: uppercase;
+        word-spacing: 5px;
 }
 
 .nav-footer a {
