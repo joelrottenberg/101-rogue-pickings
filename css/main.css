@@ -422,6 +422,7 @@ footer li {
 footer .fresh {
 	text-align: center;
 	margin-top: 25px;
+        peddling: 0;
 }
 
 footer span {
