@@ -406,6 +406,12 @@ footer li {
         padding: 0;
 }
 
+footer .fresh {
+	text-align: center;
+	margin-top: 25px;
+        peddling: 0;
+}
+
 .nav-footer {
 	text-align: center;
 	font-size: 10px;
