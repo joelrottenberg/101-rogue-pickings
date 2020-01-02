@@ -400,6 +400,10 @@ footer {
 }
 
 footer li {
+	padding: 0;
+}
+
+footer li {
 	list-style: none;
         display: inline-block;
 	margin: 0;
