@@ -1,104 +1,13 @@
 
-/* i didn't wrote the font-face 
-(i actually didn't learn it well, i will probably anyway go only with google fonts*/
 @font-face {
 	font-family: 'Wisdom Script';
 	src: url('../fonts/wisdom-script.otf') format('opentype');
 }
 
-/* MY ERROR - i wrote here body h1 
-
-I didn't wrote Helvetica, Arial, */
-
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-
 }
 
-/************************************************
-See the rest of the css after the following error
-*************************************************
-
- MY ERROR - i put in the following styles
-
-h1 {
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 30px;
-	margin: 30px 0 10px 0 ;
-	padding: 0 0 0 75px;
-
-nav ul {
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 14px;
-}
-
-nav li {
-	display: inline-block;
-	vertical-align: top;
-	margin: 0 10px;
-	padding: 10px 0  30px 0;
-	float: right;	
-}
-
-img {
-	margin: auto;
-	display: block;
-	border-top: 50px;
-	border-bottom: 50px;
-	border-color: #77a466;
-}
-
-body h2 {
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 18px;
-	color: #77a466;
-	padding: 0 0 0 75px;
-}
-
-body p {
-	font-family: 'Montserrat', sans-serif;	
-	font-size: 16px;
-	padding: 0 75px 0 75px;
-}
-
-body .third-width h3 {
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 12px;
-	text-align: left;
-	margin: 20px;
-}
-
-section {
-	border-top: solid 1px;
-}
-
-section .third-width .specials p {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	text-align: left;
-	color: #77a466;
-}
-
-section .third-width {
-	display: inline-block;
-	float: left;
-	clear: right;
-	margin: 22px;
-	width: 25%;
-	position: relative;	
-	border-right: solid;
-}
-
-*****************************************/
-
-/* EXPLAINING - without the "width and margin" goes the whole site to left*/
 .container {
 
 	width: 1200px;
@@ -136,19 +45,12 @@ p {
 	padding: 0 30px;
 }
 
-
-
-	/* QUESTION - not sure what the margin does here*/
 header {
 	height: 110px;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 }
 
-
-
-/* EXPLAINING - without "float or margin" goes the header down and out of place
-   QUESTION - not sure what the padding does here*/
 header h1 {
 	float: left;
 	margin: 0;
@@ -163,28 +65,16 @@ header h1 a {
 	text-decoration: none;
 }
 
-/* EXPLAINING - without "float" goes the nav to the right
-                without "padding" goes the nav to top*/
 header nav {
 	float: right;
 	padding: 46px 0;
 }
 
-
-
-/* EXPLAINING - without "the margin" goes the header down and out of place
-   QUESTION - not sure what the padding does here*/
 header nav ul {
 	margin: 0;
 	padding: 0;
 }
 
-
-
-/* EXPLAINING - without "padding" are the nav tabs too close to each other
-                without "inline" goes all tabs on top of each other
-
-   QUESTION - I can't see any difference between inline and inline-block for these tabs*/
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
@@ -193,17 +83,11 @@ header nav ul li {
 	display: inline;
 }
 
-
-
-/* EXPLAINING - without "text-decoration: none;" is a underline under each tab*/
 header nav ul li a {
 	text-decoration: none;
 	color: #77a466;
 }
 
-
-
-/* QUESTION - not sure what the "margin and clear" does here*/
 .top-section,
 .bottom-section {
 	margin: 0 auto;
@@ -220,9 +104,6 @@ header nav ul li a {
 	opacity: 0.7;
 }
 
-
-
-	/* QUESTION - not sure what the height and float does here*/
 .home-main-title {
 	height: auto;
 	width: 500px;
@@ -290,10 +171,6 @@ header nav ul li a {
 	text-align: center;
 }
 
-/* EXPLAINING - without "the right width" are all sections out of place
-                without "the float" are all sections out of place
-   QUESTION - not sure what the "height" does here
-	/**/
 .section-one,
 .section-two,
 .section-three {
@@ -303,8 +180,6 @@ header nav ul li a {
 	border-top: 1px solid #eee;
 }
 
-
-/* QUESTION - not sure what the "padding" does here*/
 .section-one h4 {
 	padding: 10px 0;
 }
@@ -342,24 +217,16 @@ iframe {
 	margin: 20px;
 }
 
-/* EXPLAINING - without "padding" are all sections out of place*/
 .section-two h4,
 .section-three h4 {
 	padding: 10px 30px;
 }
 
-
-
-/* EXPLAINING - without "list-style: none;" are the bullet points visible
-                without "padding" is the list more inside the table*/
 .menu {
 	list-style: none;
 	padding: 0;
 }
 
-
-
-/* EXPLAINING - without "correct padding" is the list too close to each other*/
 .menu li {
 	padding: 10px 0;
 	color: #77a466;
@@ -376,17 +243,6 @@ iframe {
 	line-height: 24px;
 }
 
-
-
-/* MY ERROR - i put in this styles in the foother
-
-	border-top: : solid 1px;
-	margin-top: 50px;
-	padding: 20px;
-	*/
-
-/* EXPLAINING - without "clear" goes the footer into the contact area
-   QUESTION - not sure what the "height and margin" does here*/
 footer {
 	height: 50px;
 	border-top: 1px solid #eee;
